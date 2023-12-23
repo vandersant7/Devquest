@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    outline: none;
+    border: 1px solid #000
+}
+
+.mudar-cor {
+    border: 1.5px solid green;
+}

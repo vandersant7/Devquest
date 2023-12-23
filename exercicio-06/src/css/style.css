@@ -1,0 +1,56 @@
+html {
+    font-size: 62.5%;
+    color: #000;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.pergunta span {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.faq-container {
+    padding: 60px 50px;
+    border-radius: 26px;
+}
+
+.faq {
+    background-color: #fcfcfc;
+    width: 655px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 228px;
+    border-radius: 21px;
+    box-shadow: 0px 20px 20px -10px rgba(0, 0, 0, 0.25);
+}
+
+.faq h1 ul {
+    flex-direction: column;
+}
+
+
+.faq .logo {
+    width: 278px;
+    height: 293px;
+    position: absolute;
+    left: -90px;
+}
+
+.content {
+    font-size: 1.5rem;
+    font-weight: 300;
+}

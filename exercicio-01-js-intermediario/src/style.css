@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quadrado {
+    width: 200px;
+    height: 200px;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.amarelo {
+    background-color: yellow;
+}
+
+.vermelho {
+    background-color: red;
+}
+
+.trocar-cor {
+    width: 200px;
+    font-size: 1.5rem;
+}

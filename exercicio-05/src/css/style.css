@@ -1,0 +1,59 @@
+html {
+    min-height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+main .imagem {
+    display: none;
+    height: 100vh;
+}
+
+main .imagem.img-selecionado {
+    display: block;
+}
+
+main .imagem .conteiner {
+    position: absolute;
+    top: 0;
+    left: 120px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+main .imagem .conteiner .conteudo {
+    background-color: white;
+    width: min(620px, 310px);
+    height: 350px;
+    border-radius: 10px;
+}
+
+.botao-avancar {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.botao-retroceder {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.botao-avancar, .botao-retroceder {
+    cursor: pointer;
+}
+
+.botao-com-opacidade {
+    opacity: 0.5;
+    cursor: default;
+}

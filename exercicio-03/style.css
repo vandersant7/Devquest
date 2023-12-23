@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+}
+
+.preto {
+    background-color: black;
+}
+
+.azul {
+    background-color: blue;
+}
