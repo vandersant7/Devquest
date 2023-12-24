@@ -1,9 +1,11 @@
 const mostrarFaq = document.querySelectorAll('.content');
 
-const botaoFaq = document.querySelectorAll('.pergunta');
+const botoesFaq = document.querySelectorAll('.pergunta');
 
-
-botaoFaq[indice].addEventListener ('click', ()=>{
-    mostrarFaq[indice].classList.contains('selecionado');
-
+botoesFaq.forEach((botao, indice) => {
+    botao.addEventListener('click', () => {
+        const faqSelecionado = document.querySelector('.content.selecionado');
+        faqSelecionado.classList.remove('selecionado');
+        mostrarFaq[indice].classList.add('selecionado');
+    })
 })
